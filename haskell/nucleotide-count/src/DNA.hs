@@ -19,4 +19,4 @@ nucleotideCounts xs = fmap nuFold mapConvert
         insertNu m n = M.insertWith (+) n 1 m
         foldl' _ z []     = z
         foldl' f z (e:es) = let f' = f z e 
-                             in seq f' $ foldl' f (f') es
+                             in seq f' $ foldl' f f' es
