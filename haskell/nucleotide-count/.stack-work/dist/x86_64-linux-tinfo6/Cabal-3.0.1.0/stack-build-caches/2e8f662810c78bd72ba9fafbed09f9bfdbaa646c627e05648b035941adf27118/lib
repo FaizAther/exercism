@@ -1,0 +1,14 @@
+/home/debian/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/include/ghcversion.h:
+  hash: 297e8571427d670d413977834f5cdfc77cb89051d2f5b8302303c442346d15d0
+/home/debian/exercism/haskell/nucleotide-count/src/DNA.hs:
+  hash: c6aac94a63592ca55e2af0a806927c6568c88059fff0de5a529c6110fdbd1d64
+? /home/debian/exercism/haskell/nucleotide-count/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/autogen/Paths_nucleotide_count.hs
+: hash: 5fb405a54c0010b21c21aaedc75b239950f4d4c4ec172d5b1f5ef23a434bf0e0
+/usr/include/stdc-predef.h:
+  hash: 64fdf694f7b3d51ec6c45c06dcb71ebbe9455742d3ea673012016668853d3bff
+/home/debian/exercism/haskell/nucleotide-count/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/autogen/cabal_macros.h:
+  hash: f9a4d6296b21323c426b810e7cbb1220fd931d2715594bb9a728fcffe6cdc5bb
+/home/debian/exercism/haskell/nucleotide-count/nucleotide-count.cabal:
+  hash: b9fe12b28ee71c1032009f2ef8a9b5c47017baf2bce8872d7b57b7cf32d3679b
+/home/debian/exercism/haskell/nucleotide-count/package.yaml:
+  hash: a9addd79532906f9ac795239d06df65176d38dadf35821e65efed3b7d93b19da
