@@ -4,15 +4,16 @@ import Data.Map as M (Map, empty, insertWith)
 
 data Nucleotide = A | C | G | T deriving (Eq, Ord, Show)
 
-convert :: Char -> Either String Nucleotide
-convert 'G' = Right G
-convert 'C' = Right C
-convert 'T' = Right T
-convert 'A' = Right A
-convert _ = Left "error"
-
-insertNu :: Nucleotide -> (Map Nucleotide Int) -> (Map Nucleotide Int)
-insertNu n = M.insertWith (+) n 1
-
 nucleotideCounts :: String -> Either String (Map Nucleotide Int)
-nucleotideCounts xs = fmap (foldr insertNu M.empty) (mapM convert xs)
+nucleotideCounts xs = fmap nuFold mapConvert
+  where
+    mapConvert = mapM convert xs
+      where
+        convert 'G' = Right G
+        convert 'C' = Right C
+        convert 'T' = Right T
+        convert 'A' = Right A
+        convert _ = Left "error"
+    nuFold = foldr insertNu M.empty
+      where
+        insertNu n = M.insertWith (+) n 1

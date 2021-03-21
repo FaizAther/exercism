@@ -9,6 +9,6 @@
 /home/debian/exercism/haskell/nucleotide-count/nucleotide-count.cabal:
   hash: b9fe12b28ee71c1032009f2ef8a9b5c47017baf2bce8872d7b57b7cf32d3679b
 ? /home/debian/exercism/haskell/nucleotide-count/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/test/autogen/Paths_nucleotide_count.hs
-: hash: e2da100e4421dde2426e303d54b00bdc50875fe95097cfe7a5bb8f36024d4b24
+: hash: 1fc230ac9fc57ac05bc23d3b67523a654d0b159710ab6fb90a8e80b987ddb004
 /home/debian/exercism/haskell/nucleotide-count/package.yaml:
   hash: a9addd79532906f9ac795239d06df65176d38dadf35821e65efed3b7d93b19da
