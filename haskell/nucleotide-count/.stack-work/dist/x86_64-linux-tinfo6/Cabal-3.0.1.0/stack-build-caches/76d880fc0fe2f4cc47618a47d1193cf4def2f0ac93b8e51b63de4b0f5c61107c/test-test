@@ -1,0 +1,14 @@
+/home/kali/exercism/haskell/nucleotide-count/test/Tests.hs:
+  hash: 20a79295827935233dc8eb30c808fb1b13aa7dba8621b93524cba69fbb97621a
+/home/kali/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/include/ghcversion.h:
+  hash: 297e8571427d670d413977834f5cdfc77cb89051d2f5b8302303c442346d15d0
+? /home/kali/exercism/haskell/nucleotide-count/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/test/autogen/cabal_macros.h
+: hash: 10fb1167e230a436665985f1884bfa48542c8e7d70dd444941efe18b2b3ed9a1
+/usr/include/stdc-predef.h:
+  hash: 64fdf694f7b3d51ec6c45c06dcb71ebbe9455742d3ea673012016668853d3bff
+? /home/kali/exercism/haskell/nucleotide-count/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/test/autogen/Paths_nucleotide_count.hs
+: hash: e2da100e4421dde2426e303d54b00bdc50875fe95097cfe7a5bb8f36024d4b24
+/home/kali/exercism/haskell/nucleotide-count/package.yaml:
+  hash: a9addd79532906f9ac795239d06df65176d38dadf35821e65efed3b7d93b19da
+/home/kali/exercism/haskell/nucleotide-count/nucleotide-count.cabal:
+  hash: b9fe12b28ee71c1032009f2ef8a9b5c47017baf2bce8872d7b57b7cf32d3679b

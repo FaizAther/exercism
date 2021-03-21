@@ -1,14 +1,11 @@
 module CollatzConjecture (collatz) where
 
-cGo :: (Integer, Integer) -> Maybe Integer
-cGo (c, n) 
-  | n <= 0 = Nothing 
-  | n == 1 = Just c
-  | otherwise = cGo $ go (c, n)
-                where
-                  go (c', n')
-                    | rem n' 2 == 0 = (c'+1, n' `div` 2)
-                    | otherwise = (c'+2, (3*n'+1) `div` 2)
-     
 collatz :: Integer -> Maybe Integer
-collatz n = cGo (0, n)
+collatz n
+  | n <= 0 = Nothing
+  | n == 1 = Just 0
+  | otherwise = Just $ collatz' n 0
+     where collatz' n' a
+             | n' == 1        = a
+             | even n'  = collatz' (n' `div` 2)       a+1
+             | otherwise      = collatz' ((3*n'+1) `div` 2) a+2
