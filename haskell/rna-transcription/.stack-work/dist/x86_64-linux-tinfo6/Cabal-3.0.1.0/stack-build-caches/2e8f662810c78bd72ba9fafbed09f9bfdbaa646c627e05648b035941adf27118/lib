@@ -1,0 +1,14 @@
+/home/debian/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/include/ghcversion.h:
+  hash: 297e8571427d670d413977834f5cdfc77cb89051d2f5b8302303c442346d15d0
+/home/debian/exercism/haskell/rna-transcription/src/DNA.hs:
+  hash: 83991b3ee8cce7b0e93858676813c99c14ff97421c765b55e8e7a6d3adb1a1bf
+? /home/debian/exercism/haskell/rna-transcription/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/autogen/Paths_rna_transcription.hs
+: hash: 818b692b36e4ddca8afef952cea1b2dac13e42260019741d606854610a558a10
+/home/debian/exercism/haskell/rna-transcription/rna-transcription.cabal:
+  hash: 835d2ed866e778b8a9d458821755cfea8ca2a4ad8d720603336bd72a44afdd88
+/usr/include/stdc-predef.h:
+  hash: 64fdf694f7b3d51ec6c45c06dcb71ebbe9455742d3ea673012016668853d3bff
+/home/debian/exercism/haskell/rna-transcription/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/autogen/cabal_macros.h:
+  hash: e35119645ee45cda9a150765f116db3c97d6c01a1ba5be2c3774028e5ed13441
+/home/debian/exercism/haskell/rna-transcription/package.yaml:
+  hash: 2766671ccd85c1d682ec62ec3163fcf738c20004e444c5dceb6a3207c15c6dca

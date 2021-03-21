@@ -1,0 +1,14 @@
+/home/debian/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/include/ghcversion.h:
+  hash: 297e8571427d670d413977834f5cdfc77cb89051d2f5b8302303c442346d15d0
+/home/debian/exercism/haskell/bob/bob.cabal:
+  hash: 718ecefd188a961a03d9322b9e83f0083461eea8070c4acf5a25d3880a207321
+/home/debian/exercism/haskell/bob/test/Tests.hs:
+  hash: fdd02bf28bfa2b85826a49359bf42facf7874c2de37e7ce7c8f6c4ac6e9427f6
+/usr/include/stdc-predef.h:
+  hash: 64fdf694f7b3d51ec6c45c06dcb71ebbe9455742d3ea673012016668853d3bff
+/home/debian/exercism/haskell/bob/package.yaml:
+  hash: fdbe34943408486a1bea988085ad4b25d582690cac37d8a14acf12386796af4d
+/home/debian/exercism/haskell/bob/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/test/autogen/cabal_macros.h:
+  hash: 55f105eb7f2bb8a713c577c3f3ab0aa45be743a6bfcc279c3ae225ca484ce32f
+/home/debian/exercism/haskell/bob/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/test/autogen/Paths_bob.hs:
+  hash: f244db11b3c9340f56b24e2d4840368e96090a81865fa909f39d6163226f6a02

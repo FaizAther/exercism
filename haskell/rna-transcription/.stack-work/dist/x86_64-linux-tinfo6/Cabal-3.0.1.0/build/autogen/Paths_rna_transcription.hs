@@ -29,12 +29,12 @@ version :: Version
 version = Version [1,3,0,10] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/home/kali/exercism/haskell/rna-transcription/.stack-work/install/x86_64-linux-tinfo6/76d880fc0fe2f4cc47618a47d1193cf4def2f0ac93b8e51b63de4b0f5c61107c/8.8.4/bin"
-libdir     = "/home/kali/exercism/haskell/rna-transcription/.stack-work/install/x86_64-linux-tinfo6/76d880fc0fe2f4cc47618a47d1193cf4def2f0ac93b8e51b63de4b0f5c61107c/8.8.4/lib/x86_64-linux-ghc-8.8.4/rna-transcription-1.3.0.10-8mRtFcKkLLY9hnCx0TsDW7"
-dynlibdir  = "/home/kali/exercism/haskell/rna-transcription/.stack-work/install/x86_64-linux-tinfo6/76d880fc0fe2f4cc47618a47d1193cf4def2f0ac93b8e51b63de4b0f5c61107c/8.8.4/lib/x86_64-linux-ghc-8.8.4"
-datadir    = "/home/kali/exercism/haskell/rna-transcription/.stack-work/install/x86_64-linux-tinfo6/76d880fc0fe2f4cc47618a47d1193cf4def2f0ac93b8e51b63de4b0f5c61107c/8.8.4/share/x86_64-linux-ghc-8.8.4/rna-transcription-1.3.0.10"
-libexecdir = "/home/kali/exercism/haskell/rna-transcription/.stack-work/install/x86_64-linux-tinfo6/76d880fc0fe2f4cc47618a47d1193cf4def2f0ac93b8e51b63de4b0f5c61107c/8.8.4/libexec/x86_64-linux-ghc-8.8.4/rna-transcription-1.3.0.10"
-sysconfdir = "/home/kali/exercism/haskell/rna-transcription/.stack-work/install/x86_64-linux-tinfo6/76d880fc0fe2f4cc47618a47d1193cf4def2f0ac93b8e51b63de4b0f5c61107c/8.8.4/etc"
+bindir     = "/home/debian/exercism/haskell/rna-transcription/.stack-work/install/x86_64-linux-tinfo6/2e8f662810c78bd72ba9fafbed09f9bfdbaa646c627e05648b035941adf27118/8.8.4/bin"
+libdir     = "/home/debian/exercism/haskell/rna-transcription/.stack-work/install/x86_64-linux-tinfo6/2e8f662810c78bd72ba9fafbed09f9bfdbaa646c627e05648b035941adf27118/8.8.4/lib/x86_64-linux-ghc-8.8.4/rna-transcription-1.3.0.10-8mRtFcKkLLY9hnCx0TsDW7"
+dynlibdir  = "/home/debian/exercism/haskell/rna-transcription/.stack-work/install/x86_64-linux-tinfo6/2e8f662810c78bd72ba9fafbed09f9bfdbaa646c627e05648b035941adf27118/8.8.4/lib/x86_64-linux-ghc-8.8.4"
+datadir    = "/home/debian/exercism/haskell/rna-transcription/.stack-work/install/x86_64-linux-tinfo6/2e8f662810c78bd72ba9fafbed09f9bfdbaa646c627e05648b035941adf27118/8.8.4/share/x86_64-linux-ghc-8.8.4/rna-transcription-1.3.0.10"
+libexecdir = "/home/debian/exercism/haskell/rna-transcription/.stack-work/install/x86_64-linux-tinfo6/2e8f662810c78bd72ba9fafbed09f9bfdbaa646c627e05648b035941adf27118/8.8.4/libexec/x86_64-linux-ghc-8.8.4/rna-transcription-1.3.0.10"
+sysconfdir = "/home/debian/exercism/haskell/rna-transcription/.stack-work/install/x86_64-linux-tinfo6/2e8f662810c78bd72ba9fafbed09f9bfdbaa646c627e05648b035941adf27118/8.8.4/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "rna_transcription_bindir") (\_ -> return bindir)
