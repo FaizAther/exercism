@@ -14,6 +14,9 @@ nucleotideCounts xs = fmap nuFold mapConvert
         convert 'T' = Right T
         convert 'A' = Right A
         convert _   = Left "error"
-    nuFold = foldr insertNu M.empty
+    nuFold = foldl' insertNu M.empty
       where
-        insertNu n = M.insertWith (+) n 1
+        insertNu m n = M.insertWith (+) n 1 m
+        foldl' _ z []     = z
+        foldl' f z (e:es) = let f' = f z e 
+                             in seq f' $ foldl' f (f') es
