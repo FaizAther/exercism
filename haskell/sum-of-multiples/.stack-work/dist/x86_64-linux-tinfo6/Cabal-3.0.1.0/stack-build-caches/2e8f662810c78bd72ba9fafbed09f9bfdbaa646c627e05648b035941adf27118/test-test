@@ -1,0 +1,14 @@
+/home/debian/exercism/haskell/sum-of-multiples/package.yaml:
+  hash: b0245edaf4cdf6c00e91390f508defb05ee30791fa9027306d8f75fd057f58c8
+/home/debian/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/include/ghcversion.h:
+  hash: 297e8571427d670d413977834f5cdfc77cb89051d2f5b8302303c442346d15d0
+/home/debian/exercism/haskell/sum-of-multiples/test/Tests.hs:
+  hash: 20587e7e9310f5f0e7e52cbd74466ba9b532662bbf73541eca42c13ef0652df2
+? /home/debian/exercism/haskell/sum-of-multiples/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/test/autogen/cabal_macros.h
+: hash: a2610550a9e7ba52ad65b294411524b2fe7b0cf0c77f372bf47c243b5a00f98f
+/home/debian/exercism/haskell/sum-of-multiples/sum-of-multiples.cabal:
+  hash: dc2fdf00083cf3066fb90490a64375d25b3003e565ab49eb885f95f00253d8d5
+/usr/include/stdc-predef.h:
+  hash: 64fdf694f7b3d51ec6c45c06dcb71ebbe9455742d3ea673012016668853d3bff
+? /home/debian/exercism/haskell/sum-of-multiples/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/test/autogen/Paths_sum_of_multiples.hs
+: hash: 10f4995bd37c6bca807d3e72d15de5e9ee93e4d5b2415d9f10a1e7aeec3fe870
