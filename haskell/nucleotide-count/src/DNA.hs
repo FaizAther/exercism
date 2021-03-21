@@ -13,7 +13,7 @@ nucleotideCounts xs = fmap nuFold mapConvert
         convert 'C' = Right C
         convert 'T' = Right T
         convert 'A' = Right A
-        convert _ = Left "error"
+        convert _   = Left "error"
     nuFold = foldr insertNu M.empty
       where
         insertNu n = M.insertWith (+) n 1
