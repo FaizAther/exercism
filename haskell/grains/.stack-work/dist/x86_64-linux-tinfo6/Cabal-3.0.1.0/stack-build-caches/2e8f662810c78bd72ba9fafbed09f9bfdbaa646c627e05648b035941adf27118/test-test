@@ -1,0 +1,14 @@
+/home/debian/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/include/ghcversion.h:
+  hash: 297e8571427d670d413977834f5cdfc77cb89051d2f5b8302303c442346d15d0
+/home/debian/exercism/haskell/grains/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/test/autogen/Paths_grains.hs:
+  hash: e53c8acd245b974b28b42697bf021f906b4076586dd090227b3905ac8362c6e4
+/home/debian/exercism/haskell/grains/test/Tests.hs:
+  hash: 5978ccb20526427a0a14db1641107d2ef31fc7ddb53a0431ecd831640e1c8782
+/usr/include/stdc-predef.h:
+  hash: 64fdf694f7b3d51ec6c45c06dcb71ebbe9455742d3ea673012016668853d3bff
+/home/debian/exercism/haskell/grains/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/test/autogen/cabal_macros.h:
+  hash: fa3fd4e5e305b5ae56f0349f660d4a496613dbecee04e5449f546e3f4d24283f
+/home/debian/exercism/haskell/grains/package.yaml:
+  hash: 54fb9dc6a6d17fad2e098f0f1c0958a01eb19217110896d17c6fe87d478c027e
+/home/debian/exercism/haskell/grains/grains.cabal:
+  hash: 4eae15636e1d55edb210e91738d703ced0bcca001c5f7a4969382ba88d40265b
