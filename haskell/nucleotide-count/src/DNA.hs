@@ -1,22 +1,14 @@
+{-# LANGUAGE TupleSections #-}
+
 module DNA (nucleotideCounts, Nucleotide(..)) where
 
-import Data.Map as M (Map, empty, insertWith)
+import Data.Map as M (Map, fromListWith)
+import Text.Read
 
-data Nucleotide = A | C | G | T deriving (Eq, Ord, Show)
+data Nucleotide = A | C | G | T deriving (Eq, Ord, Show, Read)
 
 nucleotideCounts :: String -> Either String (Map Nucleotide Int)
-nucleotideCounts xs = fmap nuFold mapConvert
+nucleotideCounts xs = fmap nCount mapConvert
   where
-    mapConvert = mapM convert xs
-      where
-        convert 'G' = Right G
-        convert 'C' = Right C
-        convert 'T' = Right T
-        convert 'A' = Right A
-        convert _   = Left "error"
-    nuFold = foldl' insertNu M.empty
-      where
-        insertNu m n = M.insertWith (+) n 1 m
-        foldl' _ z []     = z
-        foldl' f z (e:es) = let f' = f z e 
-                             in seq f' $ foldl' f f' es
+    mapConvert = mapM (readEither . (: [])) xs
+    nCount es = M.fromListWith (+) $ fmap (,1) es
