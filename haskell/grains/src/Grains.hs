@@ -14,7 +14,7 @@ total = unwrap' $ total' 64
   where
     unwrap' :: Maybe Integer -> Integer
     unwrap' (Just x) = x
-    unwrap' Nothing = - 1
+    unwrap' Nothing  = 0
 
     total' :: Integer -> Maybe Integer
     total' n = foldl
