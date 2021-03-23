@@ -1,23 +1,22 @@
 module Grains (square, total) where
 
 square :: Integer -> Maybe Integer
-square n = if n < 1 || n > 64 then Nothing else Just $ square' n
-  where
-    square' n' = if n' > 1 then 2 * square'(n'-1) else 1
-
-total' :: [Maybe Integer]
-total' = map square [1..64]
-
-maybeAdd :: Maybe Integer -> Maybe Integer -> Maybe Integer
-maybeAdd Nothing _ = Nothing
-maybeAdd _ Nothing = Nothing
-maybeAdd (Just n) (Just m) = Just $ n + m
-
-total'' :: Maybe Integer
-total'' = foldl maybeAdd (Just 0) total'
+square n
+  | n < 1 || n > 64 =  Nothing
+  | otherwise = Just $ square' 1 n
+                  where
+                    square' acc n'
+                      | n' <= 1   = acc
+                      | otherwise = square' (2*acc) (n'-1)
 
 total :: Integer
-total = do
-  case total'' of
-    Just x -> x
-    Nothing -> -1 
+total = unwrap' $ total' 64
+  where
+    unwrap' :: Maybe Integer -> Integer
+    unwrap' (Just x) = x
+    unwrap' Nothing = - 1
+
+    total' :: Integer -> Maybe Integer
+    total' n = foldl
+              (\ma b -> fmap (+) ma <*> square b)
+              (square 1) [2..n]

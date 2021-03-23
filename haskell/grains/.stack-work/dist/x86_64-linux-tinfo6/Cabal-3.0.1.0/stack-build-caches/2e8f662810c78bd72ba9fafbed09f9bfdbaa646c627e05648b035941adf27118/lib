@@ -1,7 +1,7 @@
 /home/debian/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/include/ghcversion.h:
   hash: 297e8571427d670d413977834f5cdfc77cb89051d2f5b8302303c442346d15d0
 /home/debian/exercism/haskell/grains/src/Grains.hs:
-  hash: 2444aa7972c6b9b2974e7e62ccbab52f2fdd0828c6cce1b0a53a01e976f60749
+  hash: 7cdfe6a88ae17eb4d04592efc0a021ad814382e05cbee8f850db34f52d450c96
 /usr/include/stdc-predef.h:
   hash: 64fdf694f7b3d51ec6c45c06dcb71ebbe9455742d3ea673012016668853d3bff
 /home/debian/exercism/haskell/grains/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/autogen/Paths_grains.hs:
