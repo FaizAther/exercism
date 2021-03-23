@@ -166,10 +166,10 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_PACKAGE_KEY
-#define CURRENT_PACKAGE_KEY "nucleotide-count-1.3.0.8-rbGq0ddPdr14yoq43xYn4"
+#define CURRENT_PACKAGE_KEY "nucleotide-count-1.3.0.8-BpiXfcncaaXCslTJD0Zcjn"
 #endif /* CURRENT_PACKAGE_KEY */
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "nucleotide-count-1.3.0.8-rbGq0ddPdr14yoq43xYn4"
+#define CURRENT_COMPONENT_ID "nucleotide-count-1.3.0.8-BpiXfcncaaXCslTJD0Zcjn"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "1.3.0.8"

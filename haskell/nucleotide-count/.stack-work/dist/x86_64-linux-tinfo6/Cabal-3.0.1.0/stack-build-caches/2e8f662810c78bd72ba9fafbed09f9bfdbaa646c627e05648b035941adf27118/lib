@@ -1,7 +1,7 @@
 /home/debian/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/include/ghcversion.h:
   hash: 297e8571427d670d413977834f5cdfc77cb89051d2f5b8302303c442346d15d0
 /home/debian/exercism/haskell/nucleotide-count/src/DNA.hs:
-  hash: e9b5e3fcca369c13d855033617da0639362ae625e06b4208fa16a24bed8f5fef
+  hash: b4261e6686b4e8bb9cb23f6e94c48687a6a2746a73a3f79475b4cdfe07f7fa3e
 ? /home/debian/exercism/haskell/nucleotide-count/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/autogen/Paths_nucleotide_count.hs
 : hash: 5a16bb88afd26a7ffa6497182d31d3705dab80b6b72355eea3e3af7a4fe8ab8e
 /usr/include/stdc-predef.h:

@@ -30,7 +30,7 @@ version = Version [1,3,0,8] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/debian/exercism/haskell/nucleotide-count/.stack-work/install/x86_64-linux-tinfo6/2e8f662810c78bd72ba9fafbed09f9bfdbaa646c627e05648b035941adf27118/8.8.4/bin"
-libdir     = "/home/debian/exercism/haskell/nucleotide-count/.stack-work/install/x86_64-linux-tinfo6/2e8f662810c78bd72ba9fafbed09f9bfdbaa646c627e05648b035941adf27118/8.8.4/lib/x86_64-linux-ghc-8.8.4/nucleotide-count-1.3.0.8-rbGq0ddPdr14yoq43xYn4"
+libdir     = "/home/debian/exercism/haskell/nucleotide-count/.stack-work/install/x86_64-linux-tinfo6/2e8f662810c78bd72ba9fafbed09f9bfdbaa646c627e05648b035941adf27118/8.8.4/lib/x86_64-linux-ghc-8.8.4/nucleotide-count-1.3.0.8-BpiXfcncaaXCslTJD0Zcjn"
 dynlibdir  = "/home/debian/exercism/haskell/nucleotide-count/.stack-work/install/x86_64-linux-tinfo6/2e8f662810c78bd72ba9fafbed09f9bfdbaa646c627e05648b035941adf27118/8.8.4/lib/x86_64-linux-ghc-8.8.4"
 datadir    = "/home/debian/exercism/haskell/nucleotide-count/.stack-work/install/x86_64-linux-tinfo6/2e8f662810c78bd72ba9fafbed09f9bfdbaa646c627e05648b035941adf27118/8.8.4/share/x86_64-linux-ghc-8.8.4/nucleotide-count-1.3.0.8"
 libexecdir = "/home/debian/exercism/haskell/nucleotide-count/.stack-work/install/x86_64-linux-tinfo6/2e8f662810c78bd72ba9fafbed09f9bfdbaa646c627e05648b035941adf27118/8.8.4/libexec/x86_64-linux-ghc-8.8.4/nucleotide-count-1.3.0.8"
