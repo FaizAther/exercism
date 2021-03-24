@@ -1,5 +1,7 @@
 module Grains (square, total) where
 
+import Data.Maybe
+
 square :: Integer -> Maybe Integer
 square n
   | n < 1 || n > 64 =  Nothing
@@ -10,13 +12,6 @@ square n
                       | otherwise = square' (2*acc) (n'-1)
 
 total :: Integer
-total = unwrap' $ total' 64
-  where
-    unwrap' :: Maybe Integer -> Integer
-    unwrap' (Just x) = x
-    unwrap' Nothing  = 0
-
-    total' :: Integer -> Maybe Integer
-    total' n = foldl
-              (\ma b -> fmap (+) ma <*> square b)
-              (square 1) [2..n]
+total = fromMaybe 0 $
+        foldl (\ma b -> fmap (+) ma <*> square b)
+        (square 1) [2..64]
