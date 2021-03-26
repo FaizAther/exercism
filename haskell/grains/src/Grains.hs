@@ -1,13 +1,9 @@
 module Grains (square, total) where
 
-import Data.Maybe
-
 square :: Integer -> Maybe Integer
 square n
   | n < 1 || n > 64 =  Nothing
   | otherwise = Just $ 2 ^ (n - 1) 
 
 total :: Integer
-total = fromMaybe 0 $
-        foldl (\ma b -> fmap (+) ma <*> square b)
-        (square 1) [2..64]
+total = maybe 0 (\n -> 2*n - 1) $ square 64
