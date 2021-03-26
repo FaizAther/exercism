@@ -5,11 +5,7 @@ import Data.Maybe
 square :: Integer -> Maybe Integer
 square n
   | n < 1 || n > 64 =  Nothing
-  | otherwise = Just $ square' 1 n
-                  where
-                    square' acc n'
-                      | n' <= 1   = acc
-                      | otherwise = square' (2*acc) (n'-1)
+  | otherwise = Just $ 2 ^ (n - 1) 
 
 total :: Integer
 total = fromMaybe 0 $
